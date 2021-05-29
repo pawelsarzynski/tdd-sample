@@ -1,7 +1,3 @@
-const concat = function(...args) {
-    const arrifiedArgs = args.map(a => [a].flat())
-   
-    return arrifiedArgs.reduce((acc,curr) => acc.concat(curr),[])
-   };
-   
-   export { concat }
+const concat = (...args) => args.map(a => [a].flat()).reduce((acc,curr) => acc.concat(curr), [])
+
+export { concat }
