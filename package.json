@@ -1,0 +1,21 @@
+{
+    "name": "tdd",
+    "version": "1.0.0",
+    "license": "MIT",
+    "private": true,
+    "main": "concat.js",
+    "engines": {
+      "node": ">=14.x"
+    },
+    "sideEffects": false,
+    "scripts": {
+      "test": "mocha -r esm ./*.spec.js"
+    },
+    "devDependencies": {
+      "mocha": "^5.2.0",
+      "eslint": "^7.16.0",
+      "eslint-plugin-import": "^2.22.1",
+      "esm": "^3.2.25"
+    }
+  }
+  
